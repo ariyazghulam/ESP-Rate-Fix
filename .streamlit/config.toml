@@ -1,6 +1,6 @@
 [theme]
-primaryColor="chartreuse"
-backgroundColor="green"
-secondaryBackgroundColor="#F0F2F6"
+primaryColor="#191fe0"
+backgroundColor="#19e02a"
+secondaryBackgroundColor="#19e02a"
 textColor="#262730"
 font="sans serif"
