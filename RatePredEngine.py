@@ -24,7 +24,8 @@ from sklearn.metrics import mean_absolute_error, r2_score, mean_squared_error
 from sklearn import metrics
 from formula import *
 from util import *
-st.set_page_config(layout=‘wide’)
+
+st.set_wide_mode()
 st.title('**ESP Rate Prediction**')
 st.markdown('''
 This program is able to predict **flow rate** from ESP well based on several input parameters.
