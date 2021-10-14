@@ -25,6 +25,16 @@ from sklearn import metrics
 from formula import *
 from util import *
 
+max_width_str = f"max-width: 1500px;"
+st.markdown(
+	f"""
+		<style>
+			.reportview-container .main .block-container {{{max_width_str}}}
+		</style>    
+	""",
+	unsafe_allow_html=True
+)
+
 st.title('**ESP Rate Prediction**')
 st.markdown('''
 This program is able to predict **flow rate** from ESP well based on several input parameters.
