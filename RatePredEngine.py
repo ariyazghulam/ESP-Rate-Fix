@@ -1,4 +1,3 @@
-st.set_wide_mode()
 import pandas as pd
 import numpy as np
 from scipy.sparse.construct import random
