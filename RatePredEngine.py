@@ -1,3 +1,4 @@
+st.set_wide_mode()
 import pandas as pd
 import numpy as np
 from scipy.sparse.construct import random
@@ -25,7 +26,6 @@ from sklearn import metrics
 from formula import *
 from util import *
 
-st.set_wide_mode()
 st.title('**ESP Rate Prediction**')
 st.markdown('''
 This program is able to predict **flow rate** from ESP well based on several input parameters.
